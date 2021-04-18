@@ -1,4 +1,9 @@
-
+@media all{
+    p{
+        color: blue;
+        font-family: 'Zen Dots', cursive;
+    }
+}
 .acomp{
     color: hsl(1, 3, 300);
     margin-left: 5cm;
@@ -26,26 +31,45 @@ h1 {
     background-color:yellow;
     margin: auto;
 }
-something:active{
-    
+
+a:active{
+    color: yellow;
+    display: inline-block;
 }
 #li1,#li2{
     text-decoration: underline;
     text-align: center;
     display: inline;
 }
-element element{
-
+ol li{
+    color: blue;
+    height: 4rem;
+    width: 5rem;
+    max-width: 10rem;
+    max-height: 10rem;
+    position: static;
 }
-element > element{
-
+ul.surf > li {
+    color: green;
+    margin-left: 30px;
 }
-element ~ element{
-
+p ~ p{
+    color: chartreuse;
 }
-element + element{
-
+li + li{
+    color:brown;
 }
-element.class{
+ul.surf{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
 
+#container1{
+    display: grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+    justify-items: center;
 }
