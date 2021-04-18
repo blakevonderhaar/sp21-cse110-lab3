@@ -1,0 +1,51 @@
+
+.acomp{
+    color: hsl(1, 3, 300);
+    margin-left: 5cm;
+    margin-top: 2mm;
+}
+#p1{
+    color: #161;
+}
+*{
+    background-color: whitesmoke;
+}
+/* style for all h1 tags */
+h1 {
+    color: rgb(82, 99, 87);
+}
+[class="Fri"]{
+    margin: bottom;
+    padding-left: 2.5in;
+    border-style: dashed;
+    border-color: darkred;
+    border-width: .1em;
+    border-radius: 1ex;
+}
+#listtodo:hover{
+    background-color:yellow;
+    margin: auto;
+}
+something:active{
+    
+}
+#li1,#li2{
+    text-decoration: underline;
+    text-align: center;
+    display: inline;
+}
+element element{
+
+}
+element > element{
+
+}
+element ~ element{
+
+}
+element + element{
+
+}
+element.class{
+
+}
